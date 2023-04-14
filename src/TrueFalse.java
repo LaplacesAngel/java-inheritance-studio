@@ -2,8 +2,8 @@ public class TrueFalse extends Question {
     private String question;
     private boolean answer;
 
-    public TrueFalse (String correctAnswer, String questionType, String answerType, String question, boolean answer) {
-        super(correctAnswer, questionType, answerType);
+    public TrueFalse(String theQuestion, String theAnswer, String question, boolean answer) {
+        super(theQuestion, theAnswer);
         this.question = question;
         this.answer = answer;
     }
